@@ -41,7 +41,7 @@ add
 ⇒  doublemice@DoubleMice-MBP:~/Documents/graduate/llvm-pass-practice|master⚡ pwd
 /Users/doublemice/Documents/graduate/llvm-pass-practice
 pushd llvm/lib/Transforms
-ln ../../../my\ first\ pass/FuncName .
+ln -s ../../../my\ first\ pass/FuncName .
 popd
 pushd build
 make
